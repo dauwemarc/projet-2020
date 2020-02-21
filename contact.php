@@ -5,7 +5,7 @@
     <title>Project G.a</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/gif" href="logo.png" />
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|DM+Serif+Display:400,400i&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="ftco-32x32.png">
@@ -63,166 +63,101 @@
     <!-- END header -->
 
     <div class="slider-wrap">
-      <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url('img/hero_1.jpg');">
 
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-md-8 text-center col-sm-12 ">
+              <h1 data-aos="fade-up">Contactez-nous</h1>
+              <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Bessoin d'information ?</p>
+              <input data-aos="fade-up" data-aos-delay="200" onclick="location.href='contact_mail.php'" type="submit" value="contactez-nous">
 
-        <div class="slider-item" style="background-image: url('img/hero_1.jpg');">
-          <div class="container">
-            <div class="row slider-text align-items-center justify-content-center">
-              <div class="col-md-8 text-center col-sm-12 ">
-                <h1 data-aos="fade-up mb-5">Large choix pour tout les goûts !
-                <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Intéréser ?</a></p>
-              </div>
             </div>
           </div>
         </div>
 
-        <div class="slider-item" style="background-image: url('img/hero_2.jpg');">
-          <div class="container">
-            <div class="row slider-text align-items-center justify-content-center">
-              <div class="col-md-8 text-center col-sm-12 ">
-                <h1 data-aos="fade-up mb-5">Venez manger entre amies ou en famille !</h1>
-                <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Intéréser ?</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
+      </div>
     <!-- END slider -->
     </div>
 
 
-    <section class="section bg-light py-5  bottom-slant-gray">
-      <div class="container">
-        <div class="row align-items-center">
+    <section class="section  pt-5 top-slant-white2 relative-higher bottom-slant-gray">
 
+      <div class="container">
+        <div class="row">
           <div class="col-lg-6">
-            <img src="img/hero_1.jpg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-5 ml-auto">
-            <div class="text-left heading-wrap">
-              <h2 data-aos="fade-up">Project G.a</h2>
-            </div>
-            <!-- <h3 class="mb-4">Welcome To Our Restaurant</h3> -->
-            <p>Au Project G.a il y à de tout pour tout les goûts! </p>
-            <p>Envie de découvrir ? </p>
-            <p><img src="img/signature.png" alt="Image" class="img-fluid w-25"></p>
+            <form action="contact_mail.php" method="POST">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Nom</label>
+                  <input type="text" name="name" class="form-control ">
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="phone">Téléphone</label>
+                  <input type="text" name="phone" class="form-control ">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email">E-mail</label>
+                  <input type="email" name="email" class="form-control ">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="message">Votre Message</label>
+                  <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="submit" value="Envoyer un  message" class="btn btn-primary">
+                </div>
+              </div>
+            </form>
           </div>
 
+          <div class="col-lg-6 pl-2 pl-lg-5">
+
+            <div class="col-md-8 mx-auto contact-form-contact-info">
+              <h4 class="mb-5">Détails du contact</h4>
+                <p class="d-flex">
+                  <span class="ion-ios-location icon mr-5"></span>
+                  <span>207 Avenue Gallieni, 93140 Bondy</span>
+                </p>
+
+                <p class="d-flex">
+                  <span class="ion-ios-telephone icon mr-5"></span>
+                  <span>01 48 49 90 90</span>
+                </p>
+
+                <p class="d-flex">
+                  <span class="ion-android-mail icon mr-5"></span>
+                  <span>info2020ga@gmail.com</span>
+                </p>
+              </div>
+
+          </div>
         </div>
       </div>
+
     </section>
 
+    <section class="section bg-light pt-0 relative-higher">
 
-    <section class="section pb-0">
-      <div class="container">
-        <div class="row mb-5 justify-content-center" data-aos="fade">
-            <div class="col-md-7 text-center heading-wrap">
-              <h2 data-aos="fade-up">Divers &amp; Variés</h2>
-              <p data-aos="fade-up" data-aos-delay="100">Nous avons Crée cette carte qui vous parraient peut-être un peu simple pour essayer au mieux de satisfaire les goûts de chacun.</p>
-            </div>
-          </div>
-        <div class="row align-items-center">
-          <div class="col-lg-4">
-            <img src="img/dishes_1.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="200">
-          </div>
-          <div class="col-lg-4">
-            <img src="img/about_1.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="200">
-          </div>
-          <div class="col-lg-4">
-            <img src="img/dishes_3.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="500">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section ">
-
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid mb-5">
-          <div class="row" data-aos="fade">
-            <div class="col-md-12 text-center heading-wrap">
-
-    </section> <!-- .section -->
-
-    <section class="section bg-light  top-slant-white bottom-slant-gray">
-
-      <div class="clearfix mb-5 pb-5">
+      <div class="clearfix mb-5 pb-5 ">
         <div class="container-fluid">
           <div class="row" data-aos="fade">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Les Menus</h2>
-            </div>
-          </div>
-        </div>
       </div>
-
-      <div class="container">
-
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_4.jpg');" data-aos="fade"></div>
-              <div class="text order-1">
-                <h3>Saumon vert</h3>
-                <p>Saumon accompagné de sa poigné de légumes</p>
-                <p class="text-primary h3">12.00€</p>
-              </div>
-
-            </div>
-
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');" data-aos="fade"></div>
-              <div class="text">
-                <h3>Boeuf </h3>
-                <p>Boeuf accompagné de sa sauce et oeuf et quelques légumes</p>
-                <p class="text-primary h3">12.00€</p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-md-6">
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');" data-aos="fade"></div>
-              <div class="text order-1">
-                <h3>salade de spagueti au bacon</h3>
-                <p>Spagueti, bacon, feuilles vertes</p>
-                <p class="text-primary h3">18.00€</p>
-
-              </div>
-
-            </div>
-
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_3.jpg');" data-aos="fade"></div>
-              <div class="text">
-                <h3>Salade verte</h3>
-                <p>salade, carrottes, ail, champignon</p>
-                <p class="text-primary h3">16.00€</p>
-
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-        </section> <!-- .section -->
-
-
-
-    <section class="section relative-higher">
-
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row" data-aos="fade">
-            <div class="col-md-12 text-center heading-wrap">
-
     </section> <!-- .section -->
+
+
 
     <footer class="site-footer" role="contentinfo">
 
@@ -235,7 +170,7 @@
               <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
               <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
               <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
-            <p> (Béta) </p>
+              <p> (Béta) </p>
             </ul>
 
           </div>
@@ -256,7 +191,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-5">
-            <h3>Liens Rapide</h3>
+            <h3>Quick Links</h3>
             <ul class="list-unstyled footer-link">
               <li><a href="about.html">A propos</a></li>
               <li><a href="contact.php">Contact</a></li>
