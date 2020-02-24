@@ -6,8 +6,7 @@ require 'manager.php';
 session_start();
 
 //Vérification du compte dans la bdd
-$donnee = new User(['email'=>$_POST['email'],
-                    'mdp'=>$_POST['mdp']]);
+$donnee = new inscription(['email'=>$_POST['email']], ['mdp'=>$_POST['mdp']]);
 
 $login = new Manager;
 $login->login($donnee);

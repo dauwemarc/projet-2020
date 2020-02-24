@@ -11,7 +11,7 @@ class inscription {
       $this->setEmail($email);
       $this->setMdp($mdp);
 }
-
+//Setter
 public function setNom($nom){
   if(empty($nom)){
     trigger_error('la variable doit etre un caractere');
@@ -33,6 +33,7 @@ public function setMdp($mdp){
   }
   $this->_mdp = $mdp;
 }
+//getter
 public function getNom(){
   return $this->_nom;
 }
